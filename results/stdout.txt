@@ -1,0 +1,43 @@
+IPython version: 6.1.0
+Running an IPython version more recent than 4.1.
+Browsing to the root directory in Jupyter will be supported.
+[TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
+[I 21:11:46.778 NotebookApp] Copying /home/ubuntu/.ipython/profile_default/static/custom/custom.js -> /home/ubuntu/.jupyter/custom/custom.js
+[W 21:11:46.783 NotebookApp] Config option `base_kernel_url` not recognized by `NotebookApp`.  Did you mean one of: `base_project_url, base_url`?
+[I 21:11:46.789 NotebookApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 21:11:46.819 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+/usr/local/anaconda/lib/python3.6/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+[W 21:11:48.684 NotebookApp] Error loading server extension jupyter_tensorboard
+    Traceback (most recent call last):
+      File "/usr/local/anaconda/lib/python3.6/site-packages/notebook/notebookapp.py", line 1274, in init_server_extensions
+        func(self)
+      File "/usr/local/anaconda/lib/python3.6/site-packages/jupyter_tensorboard/handlers.py", line 21, in load_jupyter_server_extension
+        from .tensorboard_manager import manager
+      File "/usr/local/anaconda/lib/python3.6/site-packages/jupyter_tensorboard/tensorboard_manager.py", line 18, in <module>
+        get_plugins = default.get_plugins
+    AttributeError: module 'tensorboard.default' has no attribute 'get_plugins'
+[I 21:11:48.688 NotebookApp] Serving notebooks from local directory: /
+[I 21:11:48.688 NotebookApp] 0 active kernels 
+[I 21:11:48.688 NotebookApp] The Jupyter Notebook is running at: http://172.17.0.8:8888/joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/
+[I 21:11:48.688 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 21:11:48.692 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.148.12) 1.84ms
+[I 21:11:50.169 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.125.128) 1.16ms
+[I 21:11:51.570 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.125.128) 1.24ms
+[I 21:11:53.115 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.148.12) 1.19ms
+[I 21:11:53.998 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.148.12) 1.30ms
+[I 21:11:54.897 NotebookApp] 302 GET /joshpoduska/ExplanatoryModels/notebookSession/5ba16a0bc9e77c000767d752/tree/mnt%2FTutorial-continuous-and-categorical-features.ipynb (10.0.148.12) 1.18ms
+[I 21:12:37.882 NotebookApp] Writing notebook-signing key to /home/ubuntu/.local/share/jupyter/notebook_secret
+[W 21:12:37.910 NotebookApp] Notebook mnt/Tutorial-continuous-and-categorical-features.ipynb is not trusted
+[I 21:12:52.721 NotebookApp] Kernel started: e290ba07-0068-4960-ab22-af9221ae4c14
+[I 21:12:57.585 NotebookApp] Adapting to protocol v5.1 for kernel e290ba07-0068-4960-ab22-af9221ae4c14
+[I 21:23:41.216 NotebookApp] Saving file at /mnt/Tutorial-continuous-and-categorical-features.ipynb
+[I 21:25:32.137 NotebookApp] Saving file at /mnt/Tutorial-continuous-and-categorical-features.ipynb
+[I 21:26:36.789 NotebookApp] Saving file at /mnt/Tutorial-continuous-and-categorical-features.ipynb
+[I 21:27:09.334 NotebookApp] Saving file at /mnt/Tutorial-continuous-and-categorical-features.ipynb
+[I 21:27:35.352 NotebookApp] Saving file at /mnt/Tutorial-continuous-and-categorical-features.ipynb
+[W 21:32:27.588 NotebookApp] WebSocket ping timeout after 119259 ms.
+[I 21:36:49.130 NotebookApp] Kernel interrupted: e290ba07-0068-4960-ab22-af9221ae4c14
+[I 21:36:57.550 NotebookApp] Adapting to protocol v5.1 for kernel e290ba07-0068-4960-ab22-af9221ae4c14
+[W 21:38:27.552 NotebookApp] WebSocket ping timeout after 90001 ms.
